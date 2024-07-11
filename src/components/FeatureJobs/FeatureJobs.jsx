@@ -16,7 +16,7 @@ const FeatureJobs = () => {
         Explore thousands of job opportunities with all the information you
         need. Its your future
       </p>
-      <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 mx-auto md:ml-10 mt-3">
         {jobs.map((job) => (
           <FeatureJob key={job.id} job={job}></FeatureJob>
         ))}

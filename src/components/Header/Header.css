@@ -13,7 +13,6 @@ li:hover {
 }
 
 li a.active {
-  text-decoration: underline;
   color: white !important;
   background-color: hotpink !important;
 }
