@@ -1,0 +1,19 @@
+/* a{
+  background-color: aqua;
+} */
+li {
+  margin: 0px 10px;
+  background-color: aqua;
+  border-radius: 10px;
+}
+li:hover {
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+}
+
+li a.active {
+  text-decoration: underline;
+  color: white !important;
+  background-color: hotpink !important;
+}

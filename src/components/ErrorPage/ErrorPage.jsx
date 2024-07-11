@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom";
+
 const ErrorPage = () => {
   return (
-    <div>
-      <h1 className="text-center">Oops</h1>
+    <div className="text-center">
+      <h1>Oops</h1>
+      <Link to="/">Go Home</Link>
     </div>
   );
 };
