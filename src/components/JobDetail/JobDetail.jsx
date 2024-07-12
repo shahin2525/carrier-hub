@@ -21,7 +21,7 @@ const JobDetail = () => {
     contact_information,
   } = job;
   const handleApply = () => {
-    saveJobApplication(id);
+    saveJobApplication(idInt);
     console.log("click apply");
     toast.success("apply job successfully");
   };
