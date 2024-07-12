@@ -1,5 +1,8 @@
+import { Link } from "react-router-dom";
+
 const FeatureJob = ({ job }) => {
   const {
+    id,
     logo,
     job_title,
     company_name,
@@ -26,7 +29,7 @@ const FeatureJob = ({ job }) => {
         <p>{salary}</p>
       </div>
       <button className="text-2xl rounded bg-blue-300 p-2 font-semibold w-[200px]">
-        View details
+        <Link to={`/job/${id}`}> View details</Link>
       </button>
     </div>
   );
