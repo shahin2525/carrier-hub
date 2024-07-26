@@ -11,6 +11,7 @@ import Jobs from "./components/Jobs/Jobs";
 import Root from "./components/Root/Root";
 import Statistics from "./components/Statistics/Statistics";
 import "./index.css";
+import { HelmetProvider } from "react-helmet-async";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -49,6 +50,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    {/* <HelmetProvider></HelmetProvider> */}
     <RouterProvider router={router} />
   </React.StrictMode>
 );
